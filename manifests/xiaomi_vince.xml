@@ -4,7 +4,7 @@
   <project path="vendor/xiaomi/vince" name="ubports-on-vince/vendor_xiaomi_vince" revision="master" remote="hal"/>
   <project path="kernel/xiaomi/msm8953" name="ubports-on-vince/Xiaomi_Kernel_OpenSource" revision="tiffany-n-oss" clone-depth="1" remote="hal"/>
   
-  <remove-project name="halium/hybris-boot" />
+  <remove-project name="Halium/hybris-boot" />
   <project path="halium/hybris-boot" name="Sailfish-On-Vince/hybris-boot" revision="master" remote="hal" />
   
 </manifest>
