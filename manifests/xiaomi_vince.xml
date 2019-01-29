@@ -8,4 +8,6 @@
   <project path="halium/hybris-boot" name="Sailfish-On-Vince/hybris-boot" revision="master" remote="hal" />
 
 <project path="external/libcurl" name="platform/external/curl" groups="pdk" remote="aosp" />  
+<project path="external/libmksh" name="platform/external/mksh" groups="pdk" remote="aosp" />  
+
 </manifest>
