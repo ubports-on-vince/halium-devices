@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project path="device/xiaomi/vince" name="ubports-on-vince/device_xiaomi_vince" revision="master" remote="hal"/>
+
+  <project path="device/xiaomi/vince" name="ubports-on-vince/device_xiaomi_vince" revision="dev" remote="hal"/>
   <project path="vendor/xiaomi/vince" name="ubports-on-vince/vendor_xiaomi_vince" revision="halium" remote="hal"/>
   <project path="kernel/xiaomi/msm8953" name="ubports-on-vince/Xiaomi_Kernel_OpenSource" revision="tiffany-n-oss" clone-depth="1" remote="hal"/>
+  <project path="kernel/xiaomi/msm8953/patches" name="ubports-on-vince/kernel_3.18_apparmor_patches" revision="master" remote="hal"/>
   
   <remove-project name="Halium/hybris-boot" />
   <project path="halium/hybris-boot" name="Sailfish-On-Vince/hybris-boot" revision="master" remote="hal" />
 
-<project path="external/libcurl" name="platform/external/curl" groups="pdk" remote="aosp" />  
-<project path="external/libmksh" name="platform/external/mksh" groups="pdk" remote="aosp" />  
+  <project path="external/libcurl" name="platform/external/curl" groups="pdk" remote="aosp" />  
+  <project path="external/libmksh" name="platform/external/mksh" groups="pdk" remote="aosp" />  
 
 </manifest>
